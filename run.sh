@@ -1,1 +1,1 @@
-npm run start:dev
+npx tsc ./src/main.ts && npx ts-node ./src/main.js
