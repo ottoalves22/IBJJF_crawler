@@ -1,0 +1,32 @@
+{
+  "name": "ibjjf_crawler",
+  "version": "1.0.0",
+  "description": "Crawl data about atheltes at ibjjf site",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottoalves22/IBJJF_crawler.git"
+  },
+  "keywords": [
+    "bjj",
+    "nodejs"
+  ],
+  "author": "Otto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ottoalves22/IBJJF_crawler/issues"
+  },
+  "homepage": "https://github.com/ottoalves22/IBJJF_crawler#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "firebase-admin": "^11.10.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
