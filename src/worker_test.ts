@@ -1,3 +1,4 @@
+// https://blog.logrocket.com/node-js-web-scraping-tutorial/ AND https://ibjjf.com/2023-athletes-ranking
 const { Worker, isMainThread, parentPort } = require('worker_threads')
 
 if(isMainThread) {
